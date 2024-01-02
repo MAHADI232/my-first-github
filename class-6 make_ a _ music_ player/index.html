@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>make a class-6 music player</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continear">
+        <div class="music_player">
+            <nav>
+                <div class="circal">
+                    <p id="left"> < </p>
+                </div>
+                <div class="circal">
+                    <div class="dod3">
+                    <p class="dod"></p>
+                    <p class="dod"></p>
+                    <p class="dod"></p>
+                   </div>
+                </div>
+            </nav>
+            <div class="image_div">
+                <img src="img/pi.jpg" alt="">
+            </div>
+            <h3>music player</h3>
+            <p>mahadi hasan music postal</p>
+            <audio controls>
+                    <source src="song/song.mp4" type="audio/mpeg" id="song">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div id="icon-div" > >| </div>
+                <div id="ctrIcon " onclick="music_play()" > <||> </div>
+                <div id="icon-div" > |< </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="custom.js"></script>
+</body>
+</html>

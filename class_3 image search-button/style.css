@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+
+    margin-top: 100px;
+    background-color: rgba(42, 3, 53, 0.662);
+   
+}
+.continear{
+    width: 460px;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(rgb(255, 255, 255), rgb(1, 57, 67)) ;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 2px 2px rgba(2, 0, 0, 0.226) ;
+    border-radius: 10px;
+  
+}
+input {
+    padding: 7px 30px;
+    border-radius: 30px;
+    margin: 0px;
+    outline: none;
+    border: none;
+    background: rgb(65, 4, 121);
+    color: whitesmoke;
+    font-size: 18px;
+    font-style: oblique;
+}
+input:hover{
+ background-color: rgba(16, 69, 4, 0.97);
+}
+#clickBottun{
+    padding: 7px 15px;
+    border-radius: 30px;
+    margin: 0px;
+    outline: none;
+    border: none;
+    background: rgb(121, 4, 78);
+    color: whitesmoke;
+    font-size: 18px;
+    cursor: pointer;
+   
+}
+#clickBottun:hover{
+  background-color: rgba(2, 63, 63, 0.36);
+
+}
+
+
+.image_profile{
+    width: 200px;
+    margin: 40px 20px;
+    background-color: rgb(149, 152, 208);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.233);
+}
+.image_profile .image{
+    width: 100%;
+    height: 180px;
+}
+.image_profile .image img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height:100% ;
+}
+.image_profile h2, h3, p{
+    margin: 3px 10px ;
+}
+#detalsBtns{
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(3, 3, 93, 0.712);
+    color: aliceblue;
+    text-transform:capitalize ;
+    cursor: pointer;
+}
+

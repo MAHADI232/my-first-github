@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class_make from_validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continear">
+        <form >
+           <h2>plane icon</h2>
+            <div class="input-group">
+                <label for="">Full Name. </label>
+                <input type="text" id="contactName" onkeyup="validateName()" placeholder=" Enter the name ">
+                <span id="name_error"></span>
+            </div>
+            <div class="input-group">
+               <label for=""> phone  .</label>
+                <input type="tel" id="contractPhone" onkeyup="validatePhone()" placeholder=" +088 ">
+                <span id="phone_error"></span>
+            </div>
+            <div class="input-group">
+               <label for=""> email   . </label>
+                <input type="email"id="contractEmail" onkeyup="validateEmail()" placeholder=" Enter the email ">
+                <span id="email_error"></span>
+            </div>
+            <div class="input-group">
+              <label for="">your massage.</label>
+                <textarea type="text" name=" textMassage" onkeyup=" validateMassage()" id="contract-massage" cols="19" rows="-10" placeholder="Enter the massage"></textarea>
+                <span id="massage_error"></span>
+            </div>
+            <button>submit</button>
+            <span id="subit-error"></span>
+        </form>
+    </div>
+
+    <script src="custom.js"></script>
+</body>
+</html>

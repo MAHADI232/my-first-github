@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: #a8a6a6;
+}
+#input_Box{
+    background: #012070b4;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 200px auto;
+    display: flex;
+}
+ input{
+    position: relative;
+    width: 100%;
+    padding: 8px 0;
+    border: none ;
+    outline: none ;
+    font-size: 20px;
+    color: #555;
+
+}
+  img {
+    position: absolute;
+    width: 100%;
+    width: 45px;
+    height: 45px;
+    margin:100px;
+    background: rgb(0, 0, 0);
+   
+    
+}
